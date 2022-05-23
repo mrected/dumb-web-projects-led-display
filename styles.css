@@ -1,0 +1,32 @@
+body {
+    background-color: #123;
+}
+
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.led-main-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.led-row{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    column-gap: 5px;
+}
+
+
+.led-col{
+    flex-basis: 10%;
+    border-radius: 25px;
+    height: 20px;
+    width: 25px;
+}
+
